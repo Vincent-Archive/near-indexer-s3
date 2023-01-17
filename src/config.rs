@@ -19,7 +19,7 @@ pub struct Env {
 
 pub fn init_tracing() {
     let env_filter =
-        EnvFilter::new("near_lake_framework=info,octopus-near-indexer-s3=info,http=info");
+        EnvFilter::new("near_lake_framework=info,near-indexer-s3=info,http=info");
 
     tracing_subscriber::fmt::Subscriber::builder()
         .with_env_filter(env_filter)

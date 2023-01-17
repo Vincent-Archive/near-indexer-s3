@@ -9,7 +9,7 @@ pub mod server;
 
 pub mod config;
 
-pub const INDEXER: &str = "octopus-near-indexer-s3";
+pub const INDEXER: &str = "near-indexer-s3";
 pub const HTTP_INDEXER: &str = "http";
 
 pub static DB_POOL: OnceCell<Pool<Postgres>> = OnceCell::new();

@@ -1847,6 +1847,29 @@ dependencies = [
 ]
 
 [[package]]
+name = "near-indexer-s3"
+version = "0.0.1"
+dependencies = [
+ "anyhow",
+ "chrono",
+ "dotenv",
+ "futures",
+ "itertools 0.9.0",
+ "near-lake-framework",
+ "once_cell",
+ "reqwest",
+ "salvo",
+ "sea-query",
+ "serde",
+ "serde_json",
+ "sqlx",
+ "tokio",
+ "tokio-stream",
+ "tracing",
+ "tracing-subscriber",
+]
+
+[[package]]
 name = "near-lake-framework"
 version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2032,29 +2055,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "97ba99ba6393e2c3734791401b66902d981cb03bf190af674ca69949b6d5fb15"
 dependencies = [
  "libc",
-]
-
-[[package]]
-name = "octopus-near-indexer-s3"
-version = "0.0.1"
-dependencies = [
- "anyhow",
- "chrono",
- "dotenv",
- "futures",
- "itertools 0.9.0",
- "near-lake-framework",
- "once_cell",
- "reqwest",
- "salvo",
- "sea-query",
- "serde",
- "serde_json",
- "sqlx",
- "tokio",
- "tokio-stream",
- "tracing",
- "tracing-subscriber",
 ]
 
 [[package]]

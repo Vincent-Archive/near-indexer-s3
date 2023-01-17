@@ -1,5 +1,5 @@
 [package]
-name = "octopus-near-indexer-s3"
+name = "near-indexer-s3"
 version = "0.0.1"
 edition = "2021"
 
